@@ -1,0 +1,48 @@
+* {
+  font-family: monospace;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+.header-bill th, td {
+  padding: 5px;
+  text-align: center;
+}
+.align-left-item td {
+  text-align: left;
+}
+.wrapper-detail-bill > * {
+  margin: 0;
+  margin-bottom: 7px;
+}
+.warehouse-title {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  font-size: 20px;
+}
+.detail-bill-more * {
+  text-align: left !important;
+}
+.bill-title {
+  margin: 0;
+}
+/*
+.table-content-title > .table-name-bill {
+  width: 30%
+}
+
+.table-content-title > .table-count-bill {
+  width: 10%
+}
+
+.table-content-title > .table-price-bill {
+  width: 20%
+}
+
+.table-content-title > .table-sum-bill {
+  width: 20%
+}
+*/
